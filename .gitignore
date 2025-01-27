@@ -1,0 +1,33 @@
+# Ignore compiled object files
+*.o
+*.obj
+
+# Ignore precompiled headers
+*.gch
+*.pch
+
+# Ignore dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Ignore static libraries
+*.a
+*.lib
+
+# Ignore executables
+*.exe
+*.out
+*.app
+
+# Ignore build directories
+build/
+cmake-build-*/
+
+# Ignore other generated files
+*.layout
+*.depend
+
+# Ignore Code::Blocks specific files
+*.cbp
+*.user
